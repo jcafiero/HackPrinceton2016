@@ -1,7 +1,7 @@
 const excuseList = [
     {
         id: 1,
-        excuse: "//"
+        excuse: "//",
     },
     {
         id: 2,
