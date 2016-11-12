@@ -8,10 +8,8 @@ router.get("/excuses", (req, res) => {
 });
 
 router.post("/excuses", (req, res) => {
-    let result;
-
     try {
-        result = excuse.getRandomExcuse();
+        let result = excuse.getRandomExcuse();
     } catch (e) {
         res.render("page/excuses", { error: e });
         return;
