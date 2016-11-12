@@ -41,8 +41,12 @@ const excuseList = [
         excuse: "I hear voices when I'm with you."
     },
     {
-        id: 12,
+        id: 11,
         excuse: "it's laundry day"
+    },
+    {
+        id: 12,
+        excuse: "you don't have D. E. Shaw & Co's gummy bears"
     },
     {
         id: 13,
@@ -142,7 +146,7 @@ const excuseList = [
     },
     {
         id: 37,
-        excuse: "I'm starting the 12the season of Parks and Recreation."
+        excuse: "I'm starting the 12th season of Parks and Recreation."
     },
     {
         id: 38,
@@ -189,9 +193,10 @@ let exportedMethods = {
         return Promise.resolve(excuse);
     },
     getRandomExcuse: () => {
-      let randomID = Math.floor((Math.random() * excuseList.length) + 1);
+      let randomID = Math.floor((Math.random() * excuseList.length));
       let excuse = excuseList.filter(x => x.id == randomID).shift();
-      if (!excuse) throw "Error finding random excuse";
+      if (!excuse) throw "Error finding random excuse " + randomID;
+
 
       return excuse['excuse'];
     }
