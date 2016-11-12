@@ -7,3 +7,9 @@ hp-header {
   line-height: 4.1em;
   background-color: blue;
 }
+
+hp-excusal {
+  font-size: 1em;
+  text-align: center;
+  color: pink;
+}
