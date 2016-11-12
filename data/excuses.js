@@ -41,8 +41,12 @@ const excuseList = [
         excuse: "I hear voices when I'm with you."
     },
     {
-        id: 12,
+        id: 11,
         excuse: "it's laundry day"
+    },
+    {
+        id: 12,
+        excuse: "you don't have D. E. Shaw & Co's gummy bears"
     },
     {
         id: 13,
