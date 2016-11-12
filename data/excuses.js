@@ -142,7 +142,7 @@ const excuseList = [
     },
     {
         id: 37,
-        excuse: "I'm starting the 12the season of Parks and Recreation."
+        excuse: "I'm starting the 12th season of Parks and Recreation."
     },
     {
         id: 38,
