@@ -13,11 +13,11 @@ const excuseList = [
     },
     {
         id: 4,
-        excuse: "You're better off without me."
+        excuse: "you're better off without me."
     },
     {
         id: 5,
-        excuse: "We were on a BREAK."
+        excuse: "we were on a BREAK."
     },
     {
         id: 6,
@@ -41,7 +41,7 @@ const excuseList = [
     },
     {
         id: 12,
-        excuse: "It's laundry day"
+        excuse: "it's laundry day"
     },
     {
         id: 13,
@@ -49,11 +49,11 @@ const excuseList = [
     },
     {
         id: 14,
-        excuse: "You drink Pepsi and I'm more of a Coke person."
+        excuse: "you drink Pepsi and I'm more of a Coke person."
     },
     {
         id: 15,
-        excuse: "You haven't met my mom yet."
+        excuse: "you haven't met my mom yet."
     },
     {
         id: 16,
@@ -69,7 +69,7 @@ const excuseList = [
     },
     {
         id: 19,
-        excuse: "My ex downgraded, so it's a me day."
+        excuse: "my ex downgraded, so it's a me day."
     },
     {
         id: 20,
@@ -93,7 +93,7 @@ const excuseList = [
     },
     {
         id: 25,
-        excuse: "My mom said no."
+        excuse: "my mom said no."
     },
     {
         id: 26,
@@ -113,11 +113,11 @@ const excuseList = [
     },
     {
         id: 30,
-        excuse: "There's not enough time until Christmas."
+        excuse: "there's not enough time until Christmas."
     },
     {
         id: 31,
-        excuse: "You're not Ryan Smith."
+        excuse: "you're not Ryan Smith."
     },
     {
         id: 32,
@@ -125,7 +125,7 @@ const excuseList = [
     },
     {
         id: 33,
-        excuse: "My grandma has fallen and she can't get up."
+        excuse: "my grandma has fallen and she can't get up."
     },
     {
         id: 34,
@@ -153,7 +153,7 @@ const excuseList = [
     },
     {
         id: 40,
-        excuse: "I have to reorganize my sock drawer."
+        excuse: "I have to reorganize my sock drawers."
     },
     {
         id: 41,
