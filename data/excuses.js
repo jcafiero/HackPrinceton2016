@@ -153,7 +153,7 @@ const excuseList = [
     },
     {
         id: 40,
-        excuse: "I have to reorganize my sock drawer."
+        excuse: "I have to reorganize my sock drawers."
     },
     {
         id: 41,
