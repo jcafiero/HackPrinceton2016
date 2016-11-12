@@ -176,9 +176,11 @@ let exportedMethods = {
         return Promise.resolve(excuse);
     },
     getRandomExcuse: () => {
-      //todo generate random number
-      let randomID = 4;
-      return getExcuse(randomID);
+      let randomID = Math.floor((Math.random() * excuseList.length) + 1);
+      let excuse = excuseList.filter(x => x.id == randomID).shift();
+      if (!excuse) throw "Error finding random excuse";
+
+      return excuse['excuse'];
     }
 }
 
