@@ -162,6 +162,10 @@ const excuseList = [
     {
         id: 42,
         excuse: "I have to go take care of my pet llama."
+    },
+    {
+        id: 43,
+        excuse: "the voices in my head are saying not today."
     }
 ];
 
