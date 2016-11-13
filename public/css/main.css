@@ -11,9 +11,9 @@ body {
 .hp-header {
   font-family: 'Dosis', Arial, sans-serif;
   font-size: 4em;
-  line-height: 2em;
+
   background-color: #d3d3d3;
-  padding: 50px;
+  padding: 100px;
   text-align: center;
 }
 .server-form {
