@@ -4,8 +4,9 @@
 .hp-header {
   font-family: 'Dosis', sans-serif;
   font-size: 4em;
-  line-height: 4.1em;
-  background-color: blue;
+  line-height: 2em;
+  background-color: #d3d3d3;
+  padding: 20px;
 }
 
 .hp-excusal {
