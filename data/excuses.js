@@ -122,7 +122,7 @@ const excuseList = [
     },
     {
         id: 31,
-        excuse: "you're not Ryan Smith."
+        excuse: "you're not Ryan Swift."
     },
     {
         id: 32,
@@ -179,6 +179,10 @@ const excuseList = [
     {
         id: 45,
         excuse: "you're just not important enough."
+    },
+    {
+        id: 46,
+        excuse: "it's not me, it's you."
     }
 ];
 
@@ -193,7 +197,7 @@ let exportedMethods = {
         return Promise.resolve(excuse);
     },
     getRandomExcuse: () => {
-      let randomID = Math.floor((Math.random() * excuseList.length));
+      let randomID = Math.floor((Math.random() * excuseList.length+1));
       let excuse = excuseList.filter(x => x.id == randomID).shift();
       if (!excuse) throw "Error finding random excuse " + randomID;
 
