@@ -13,9 +13,10 @@ body {
   line-height: 2em;
   background-color: #d3d3d3;
   padding: 20px;
+  text-align: center;
 }
 
-.hp-excusal {
+.hp-excusal, .hp-hackers{
   font-size: 1em;
   text-align: center;
   font-family: 'Dosis', Arial, sans-serif;
