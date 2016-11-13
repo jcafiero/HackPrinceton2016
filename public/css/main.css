@@ -1,8 +1,14 @@
 /* main css stylesheet */
 @import url('https://fonts.googleapis.com/css?family=Dosis:300,400,500,700');
 
+body {
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+
 .hp-header {
-  font-family: 'Dosis', sans-serif;
+  font-family: 'Dosis', Arial, sans-serif;
   font-size: 4em;
   line-height: 2em;
   background-color: #d3d3d3;
@@ -12,4 +18,5 @@
 .hp-excusal {
   font-size: 1em;
   text-align: center;
+  font-family: 'Dosis', Arial, sans-serif;
 }
