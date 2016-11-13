@@ -27,10 +27,11 @@ body {
   padding:15px 30px;
 }
 
-.hp-excusal, .hp-hackers-prof{
-  font-size: 1.8em;
+.hp-excusal {
+  font-size: 2em;
   text-align: center;
   font-family: 'Dosis', Arial, sans-serif;
+  text-decoration: none;
 }
 h2 {
   font-size: 3em;
@@ -40,4 +41,14 @@ h2 {
 .hp-teaser {
   font-size: 1.4em;
   padding: 20px;
+}
+h4 {
+  font-size: 1.8em;
+  text-align: center;
+}
+.hp-hackers-prof{
+  font-size: 1.5em;
+  text-align: center;
+  font-family: 'Dosis', Arial, sans-serif;
+  text-decoration: none;
 }
