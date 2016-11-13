@@ -16,9 +16,19 @@ body {
   padding: 20px;
   text-align: center;
 }
+.server-form {
+  text-align: center;
+}
 
-.hp-excusal, .hp-hackers{
-  font-size: 2em;
+
+.hp-hackers {
+  font-size: 1.8em;
+  text-align: left;
+  padding:15px 30px;
+}
+
+.hp-excusal, .hp-hackers-prof{
+  font-size: 1.8em;
   text-align: center;
   font-family: 'Dosis', Arial, sans-serif;
 }
@@ -26,4 +36,8 @@ h2 {
   font-size: 3em;
   text-align: center;
   font-weight: 300;
+}
+.hp-teaser {
+  font-size: 1.4em;
+  padding: 20px;
 }
